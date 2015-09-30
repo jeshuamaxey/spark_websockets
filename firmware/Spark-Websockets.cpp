@@ -70,7 +70,7 @@
 #include "spark_wiring_string.h"
 #include "application.h"
 
-#include "Particle-Websockets.h"
+#include "Spark-Websockets.h"
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stdlib.h>
