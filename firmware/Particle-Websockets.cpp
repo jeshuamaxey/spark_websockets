@@ -546,7 +546,7 @@ bool WebSocketClient::readHandshake() {
 		if(strcmp(line, "") == 0) {
 		  break;
 		}
-		if(strncmp(line, "kuZ2KVbyl4oJOyuTXN/B93O3z9Y=", 12) == 0) {
+		if(strncmp(line, "Sec-WebSocket-Accept: kuZ2KVbyl4oJOyuTXN/B93O3z9Y=", 50) == 0) {
 		  result = true;
 		}
 	}
