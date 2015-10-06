@@ -79,9 +79,9 @@
 
 
 #define HANDSHAKE
-#define DEBUGGING
-#define TRACE
-//#define STEPBYSTEP
+// #define DEBUGGING
+// #define TRACE
+// #define STEPBYSTEP
 
 
 
